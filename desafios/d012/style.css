@@ -15,6 +15,7 @@ html,
 body{
     padding: 0;
     margin: 0;
+    max-width: 100%;
 }
 
 a{
@@ -25,27 +26,32 @@ a{
 .cabecalho{
     background-color: black;
     color: white;
+
+    width: 100%;
+
     display: flex;
     flex-direction: column;
     justify-items: center;
     align-items: center;
+
     padding: 50px 0 50px 0;
+    position: relative;
 }
 
 .cabecalho-texto{
     font-family: var(--fonte-outra);
-    font-size: 8.5em;
+    font-size: 7vw;
 }
 
 .cabecalho-paragrafo{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1em;
+    font-size: 2vw;
 }
 
 
 section pre{
     font-family: var(--fonte-cursiva);
-    font-size: 2.9em;
+    font-size: min(3em, 4vw);
     line-height: 2em;
     margin-left: 20px;
 }
@@ -55,25 +61,26 @@ section pre{
 }
 
 #estrofe-especial-1{
-    height: 100vh;
+    height: 100%;
 
     background-image: url('imagens/background001.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
+    width: 100%;
 
     padding: 50px 0 50px 0;
 }
 
 .estrofes-especiais-paragrafos{
     background-color: rgba(0, 0, 0, 0.397);
-    width: fit-content;
+    width: 50vw;
     padding-right: 40px;
     color: white;
 }
 
 #estrofe-especial-2{
-    height: 100vh;
+    height: 100%;
 
     background-image: url('imagens/background002.jpg');
     background-size: cover;
@@ -96,6 +103,7 @@ section pre{
 }
 
 footer > p{
+    font-size: 2.3vw;
     padding: 20px;
     margin: auto;
 }
