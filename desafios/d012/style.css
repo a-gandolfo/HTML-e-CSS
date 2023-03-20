@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root{
+    --fonte-outra: 'Passion One', cursive;
+    --fonte-cursiva: 'Sriracha', cursive;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    color: white;   
+    text-decoration: none;
+}
+
+.cabecalho{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.cabecalho-texto{
+    font-family: var(--fonte-outra);
+    font-size: 8.5em;
+}
+
+.cabecalho-paragrafo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+}
+
+
+section pre{
+    font-family: var(--fonte-cursiva);
+    font-size: 2.9em;
+    line-height: 2em;
+    margin-left: 20px;
+}
+
+.estrofe-normal{
+    padding: 90px 0 90px 0;
+}
+
+#estrofe-especial-1{
+    height: 100vh;
+
+    background-image: url('imagens/background001.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    padding: 50px 0 50px 0;
+}
+
+.estrofes-especiais-paragrafos{
+    background-color: rgba(0, 0, 0, 0.397);
+    width: fit-content;
+    padding-right: 40px;
+    color: white;
+}
+
+#estrofe-especial-2{
+    height: 100vh;
+
+    background-image: url('imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+    padding: 50px 0 50px 0;
+}
+
+#estrofe-especial-2-paragrafo{
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+}
+
+#rodape{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+footer > p{
+    padding: 20px;
+    margin: auto;
+}
