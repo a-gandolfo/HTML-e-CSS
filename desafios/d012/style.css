@@ -61,6 +61,10 @@ section{
     line-height: 2em;
 }
 
+section > p{
+    padding-bottom: 2em;
+}
+
 .estrofe-especial{
     background-color: rgb(49, 49, 49);
     color: white;
