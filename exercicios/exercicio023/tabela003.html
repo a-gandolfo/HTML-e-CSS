@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela003</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            
+            position: relative;
+        }
+
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead, tfoot{
+            background: gray;
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        td.num{
+            text-align: right;
+        }
+
+        
+        tbody > tr:nth-child(odd){ /*2n-1*/
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+            TABLE
+                CAPTION
+                THEAD
+                    TR, TD, TH
+                TBODY
+                    TR, TD, TH
+                TFOOT
+                    TR, TD, TH
+    -->
+    <table>
+        <caption>População das Unidades federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17.264.943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num">210.147.125</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi eligendi voluptatibus, ut porro iusto consequuntur laudantium dolorem maiores nisi rem eveniet! Recusandae animi assumenda dolore nisi inventore expedita architecto sit, optio quis rerum cum labore voluptatibus et consequatur? Reiciendis minima dolor ratione quam sapiente vero eos doloribus, itaque repudiandae suscipit pariatur voluptas molestiae, optio perferendis ipsum, tempora voluptate sint enim laboriosam. Nemo temporibus excepturi reprehenderit mollitia blanditiis minima ducimus illo? Neque nemo facilis dolorum atque perferendis laborum esse suscipit mollitia, ab reprehenderit unde culpa totam non debitis aliquam consectetur maxime excepturi error aspernatur temporibus animi eaque illum. Reiciendis delectus cum, ea cumque vitae saepe inventore. Quibusdam iusto aliquid facere laudantium. Tenetur, excepturi sunt adipisci, pariatur aperiam laudantium nam, reprehenderit ipsum fuga quidem natus. Sunt aliquam pariatur architecto, porro non reprehenderit doloribus laudantium aut blanditiis perferendis itaque, assumenda quas officiis ullam voluptatem quos ea. Autem deleniti quasi quas minima, vitae libero voluptates possimus suscipit quis pariatur rem non, nemo dolorem praesentium iste? Nemo minima ipsa velit molestias dolore beatae eos. Necessitatibus, animi! Temporibus nihil blanditiis numquam doloribus delectus. Numquam consequuntur reiciendis libero distinctio et debitis sequi nam voluptate nostrum incidunt corporis nemo corrupti nulla assumenda eum expedita quisquam tempora quibusdam reprehenderit, consectetur cum hic officia a voluptates. Nisi illum vitae debitis obcaecati dicta quae! Quam dolores praesentium odit iusto repellat, mollitia deserunt dicta eum magni aspernatur quisquam soluta sed, explicabo nobis cum, non in iure voluptatum doloremque velit doloribus harum ex? Odit sint voluptatum ducimus accusantium cum sit facilis quam voluptatem necessitatibus, ex porro eaque atque. Ad animi doloribus, itaque deleniti necessitatibus corporis repudiandae rem quaerat similique impedit soluta voluptatum corrupti aliquid! Dignissimos quisquam aut sed molestiae soluta voluptate vitae pariatur numquam laboriosam, veritatis temporibus iure sint officiis suscipit. Nesciunt quo quisquam tempora quod, laborum officia odio veritatis impedit soluta, deserunt ducimus, vero corporis quibusdam! Enim, sunt. Reiciendis, officiis quae blanditiis inventore animi ex soluta obcaecati? Eum libero impedit voluptatem quaerat qui architecto iusto sed. Obcaecati voluptate impedit eum at ad. Tempore quae ratione enim numquam laudantium, repellat excepturi, minus dolorem cumque delectus ipsam, eos amet laborum harum soluta! Minima optio perferendis quaerat ab ex qui ipsa id. Sunt laborum saepe alias porro unde maiores qui veritatis voluptatibus est vel voluptate error incidunt, reiciendis praesentium deserunt distinctio esse ullam dolores, fuga omnis sint inventore atque soluta? Omnis at esse iure nihil quidem repellendus? Numquam consectetur soluta dignissimos magnam, et enim! Corrupti quas sunt doloribus quam iste eveniet magnam repudiandae eos pariatur possimus quidem amet non laboriosam harum qui earum fugiat, voluptas nihil nemo ut itaque error animi sint natus! Ad quam explicabo repellat! Et facilis delectus, tenetur non est molestiae doloribus culpa id, accusantium quae nostrum quos distinctio atque cumque laborum itaque? Optio et sint animi quisquam iure, consequuntur, nam perspiciatis eligendi veritatis blanditiis dicta corrupti tempora recusandae. Hic dolorum voluptate dolorem optio dicta quidem officiis obcaecati mollitia alias vitae eum consectetur, impedit ipsa ea a repudiandae beatae debitis illum fuga error? Dignissimos, adipisci ex animi quam accusamus sit amet dolor!
+    </p>
+</body>
+</html>
