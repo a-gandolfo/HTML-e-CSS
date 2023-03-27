@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     
-    background: lightblue;
+    background-image: linear-gradient(to top, pink, skyblue);
 }
 
 .container{
@@ -19,19 +19,19 @@ body{
 
 .container > img{
     display: block;
+
 }
 
 .container > iframe{
-
     position: absolute;
     
-    top: 50%;
+    top: 52%;
     left: 50%;
 
     transform: translate(-50%, -50%);
 
     width: 88%;
-    height: 77%;
+    height: 73%;
 }
 
 .links{
