@@ -1,1 +1,6 @@
 /*Aparelho em modo paisagem*/
+
+body{
+    background-image: url('../assets/cev-landscape.jpg');
+    background-position: left bottom;
+}
