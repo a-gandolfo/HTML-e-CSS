@@ -16,7 +16,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(98, 65, 189);
     color: white;
 }
 
@@ -55,9 +55,31 @@ body{
     font-size: 2.5rem;
 }
 
+.hamburguinho{
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.hamburguinho img{
+    display: block;
+
+    padding: 1rem;
+    width: 2.4rem;
+    height: auto;
+
+    box-sizing: content-box;
+}
+
+.container-nav{
+    display: none;
+}
+
 .nav{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    margin-inline: 4rem;
+    gap: 3px;
 
     width: min-content(95%, 70rem);
 }
@@ -72,8 +94,43 @@ body{
     background-color: white;
 
     height: 5em;
-
     padding: 2em;
 
     border-radius: 10px;
+}
+
+.nav-toggle{
+    display: none;
+}
+
+.nav-toggle:checked ~ section{
+    display: block;
+}
+
+@media screen and (min-width: 900px) {
+    .cabecalho{
+        background-image: url('../images/pexels-junior-teixeira-2047905.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+    .container-nav{
+        display: block;
+
+        padding-top: 1rem;
+    }
+
+    .nav{
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .grid-col-span-2{
+        grid-column: span 2;
+    }
 }
