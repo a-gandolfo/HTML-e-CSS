@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&display=swap');
+
+/*Mobile First*/
+
+:root{
+    --main-font: 'Lexend Mega', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.cabecalho{
+    position: relative;
+
+    font-family: var(--main-font);
+    
+    background-image: url('../images/imagem-tablet.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    
+    height: 292px;
+
+}
+
+.gradient{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: linear-gradient(180deg, rgba(83,0,171,1) 32%, rgba(93,9,121,0.8939950980392157) 64%, rgba(255,0,129,0.26934523809523814) 100%);
+}
+
+.cabecalho-container{
+   display: grid;
+    place-items: center;
+}
+
+.cabecalho h1{
+    font-size: 2.5rem;
+}
+
+.nav{
+
+}
