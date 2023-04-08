@@ -40,7 +40,7 @@ body{
     width: 100%;
     height: 100%;
 
-    background-image: linear-gradient(180deg, rgba(83,0,171,1) 32%, rgba(93,9,121,0.8939950980392157) 64%, rgba(255,0,129,0.26934523809523814) 100%);
+    background-image: linear-gradient(180deg, rgba(83,0,171,1) 10%, rgba(93,9,121,0.8939950980392157) 64%, rgba(255,0,129,0.26934523809523814) 100%);
 
     display: grid;
     place-items: center;
@@ -48,7 +48,7 @@ body{
 
 .cabecalho-container{
    display: grid;
-    place-items: center;
+   place-items: center;
 }
 
 .cabecalho h1{
@@ -56,11 +56,10 @@ body{
 }
 
 .nav{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 
-    justify-content: center;
-    align-items: center;
+    width: min-content(95%, 70rem);
 }
 
 .nav a{
@@ -72,14 +71,9 @@ body{
 
     background-color: white;
 
-    width: 90vw;
-    
-    margin: 1em;
+    height: 5em;
+
     padding: 2em;
 
-    position: relative;
-}
-
-.nav a img{
-    justify-content: center;
+    border-radius: 10px;
 }
