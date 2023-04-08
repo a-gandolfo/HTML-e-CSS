@@ -41,6 +41,9 @@ body{
     height: 100%;
 
     background-image: linear-gradient(180deg, rgba(83,0,171,1) 32%, rgba(93,9,121,0.8939950980392157) 64%, rgba(255,0,129,0.26934523809523814) 100%);
+
+    display: grid;
+    place-items: center;
 }
 
 .cabecalho-container{
@@ -53,5 +56,10 @@ body{
 }
 
 .nav{
+    display: flex;
+    flex-direction: column;
 
+    justify-content: center;
+    align-items: center;
 }
+
