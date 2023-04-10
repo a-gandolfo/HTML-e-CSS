@@ -3,17 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@700&display=swap');
 
 /*Mobile First*/
-
-:root{
-    --main-font: 'Lexend Mega', sans-serif;
-}
-
 *{
+
     margin: 0;
     padding: 0;
 
     box-sizing: border-box;
 }
+
+:root{
+    --main-font: 'Lexend Mega', sans-serif;
+}
+
 
 body{
     background-color: rgb(98, 65, 189);
