@@ -73,6 +73,10 @@ body{
     box-sizing: content-box;
 }
 
+.hamburguinho img:hover{
+    cursor: pointer;
+}
+
 .container-nav{
     display: none;
 }
