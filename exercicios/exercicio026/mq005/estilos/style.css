@@ -75,6 +75,7 @@ body{
 
 .hamburguinho img:hover{
     cursor: pointer;
+    filter: invert(1);
 }
 
 .container-nav{
@@ -102,6 +103,10 @@ body{
     padding: 2em;
 
     border-radius: 10px;
+}
+
+.nav a:hover{
+    background-color: rgb(164, 141, 233);
 }
 
 .nav-toggle{
