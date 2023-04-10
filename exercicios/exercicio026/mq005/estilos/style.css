@@ -87,7 +87,7 @@ body{
     margin-inline: 4rem;
     gap: 3px;
 
-    width: min-content(95%, 70rem);
+    width: 90vw;
 }
 
 .nav a{
