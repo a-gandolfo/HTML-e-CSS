@@ -21,25 +21,30 @@ body{
 }
 
 .img{
-    height: 30vh;
+    width: 60vw;
+    height: 200px;
+
+    overflow: hidden;
+
+    border-radius: 20px 20px 0 0;
 }
 
 .img img{
     display: block;
 
-    width: 80vw;
+    width: 100%;
 }
 
 .container{
     background-color: white;
 
-    width: 80vw;
+    width: 60vw;
 
-    border-radius: 0 0 20px 20px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .container-principal{
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
 }
 
 .container h1{
