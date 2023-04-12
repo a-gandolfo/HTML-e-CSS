@@ -133,6 +133,7 @@ body{
 .cartinha{
     display: flex;
     align-items: center;
+    justify-content: center;
 
     padding: 0;
 
@@ -143,13 +144,13 @@ body{
 }
 
 .cartinha > a{
-    position: relative;
+    position: relative; 
 
-    display: block;
+    display: block; 
 
     text-decoration: none;
-    text-align: center;
-    width: 100%;
+    text-align: center; 
+    width: 100%; 
     color: rgb(78, 156, 130);
 
     padding: 0.8rem;
@@ -163,8 +164,7 @@ body{
     width: 16px;
 
     position: absolute;
-
     left: calc(50% + 65px);
-    
+
     margin-bottom: 11px;
 }

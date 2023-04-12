@@ -86,8 +86,6 @@ body{
     display: grid;
     margin-inline: 4rem;
     gap: 3px;
-
-    width: 90vw;
 }
 
 .nav a{
