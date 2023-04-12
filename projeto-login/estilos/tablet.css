@@ -7,7 +7,7 @@
         display: flex;
         flex-direction: row;
 
-        width: 80vw;
+        width: min(70vw, 600px);
     }
 
     .container-principal{
@@ -38,7 +38,7 @@
         display: flex;
         flex-direction: row-reverse;
 
-        width: 80vw;
+        width: min(80vw, 1000px);
     }
 
     .img{
